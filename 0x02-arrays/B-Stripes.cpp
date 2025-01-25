@@ -29,8 +29,8 @@ int main(){
        if (flag) continue; 
 
         for(int i = 0; i < 8; i++){
-            for(int j = 0; j < 8; j++){
                 counter = 0;
+            for(int j = 0; j < 8; j++){
                 if (arr[j][i] == 'B') 
                 {
                     counter++;
